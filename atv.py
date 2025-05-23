@@ -17,7 +17,7 @@ class Tarefa:
             self.titulo = novo_titulo
             self.descricao = nova_descricao
             self.prioridade = nova_prioridade
-Marcar tarefas como concluídas
+# Marcar tarefas como concluídas
     def __str__(self):
         return f"Tarefa: {self.id} - {self.titulo} - {self.descricao} - {self.prioridade} - {self,status}"
 # Cadastrar Usuários
@@ -114,6 +114,7 @@ class Sistema:
             print("3 - Listar Tarefas pendentes")
             print("4 - Listar Tarefas concluidas")
             print("5 - Editar Tarefas")
+            print("6 - Editar Tarefas não encontrada")
             escolha = input("Selecione: ")
 
             if escolha == "1":
